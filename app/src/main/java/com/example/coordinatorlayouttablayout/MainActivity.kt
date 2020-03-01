@@ -14,7 +14,7 @@ class MainActivity : AppCompatActivity() {
         setSupportActionBar(toolbar)
 
         val fragmentList = arrayListOf<Fragment>()
-        for(i in 0..5){
+        for(i in 0..3){
             fragmentList.add(ViewPagerFragment(i))
         }
 
